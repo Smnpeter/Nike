@@ -5,3 +5,93 @@ body {
     background-color: #646464;
     color: rgb(255, 255, 255);
 }
+
+h1{
+    font-size: 3em;
+    font-style: italic;
+    font-stretch: expanded;
+}
+
+p{
+    text-align: justify;
+}
+
+a{
+    color: #bbff00;
+    text-decoration: none;
+}
+
+.kiemelt{
+    font-weight: bold;
+    color: #00ff00;
+}
+
+.hangsulyos{
+    text-indent: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 40px;
+    word-spacing: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a:link{
+    color:  #f700ff;
+    background-color: white;
+}
+
+nav a:visited{
+    color:  #f700ff;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    background-color: thistle;
+}
+
+nav a:active{
+    color: red;
+}
+
+nav h2{
+    background-color:white;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+table{
+    width: 90%;
+    background-color: rgb(148, 148, 148);
+    margin: auto;
+    color: darkblue;
+}
+
+table, table td, table th{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: lightblue;
+}
+
+table td{
+    padding: 5px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table tr:hover{
+    background-color: black;
+    color: white;
+}
