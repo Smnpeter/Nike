@@ -4,12 +4,16 @@ body {
     margin: 0 auto;
     background-color: #646464;
     color: rgb(255, 255, 255);
+    background-image: url("nike\ logo.png");
+    background-repeat: no-repeat;
+    background-position: right top; 
 }
 
 h1{
     font-size: 3em;
     font-style: italic;
     font-stretch: expanded;
+    text-align: center;
 }
 
 p{
@@ -94,4 +98,5 @@ table td{
 table tr:hover{
     background-color: black;
     color: white;
+    transition-duration: 1s;
 }
