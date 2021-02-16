@@ -39,6 +39,17 @@ a{
     word-spacing: 50px;
 }
 
+.felül {
+    margin: auto;
+    text-align: center;
+    padding: 10px ;
+    
+}
+
+#kozepre {
+    margin:auto 75mm;
+}
+
 nav ul{
     list-style-type: none;
 }
